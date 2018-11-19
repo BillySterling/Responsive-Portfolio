@@ -1,0 +1,239 @@
+* {
+	margin: 0
+}
+
+html, body {
+	height: 100%;
+} 
+
+body {
+	background-image: url(../images/footer_lodyas.png);
+	background-color: #ffffff; 
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 18px;
+	color: #777777;
+}
+
+a {
+	color: #9999A5;
+	text-decoration: none;
+}
+
+h1, h2 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-weight: bold;
+	font-size: 30px;
+	color: #4aaaa5;
+}
+
+h3 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-weight: bold;
+	font-size: 22px;
+	color: #4aaaa5;
+	margin: 5px;
+}
+
+header {
+	background: #ffffff;
+	border-top: 3px solid #cccccc;
+	border-bottom: 3px solid #cccccc;
+}
+
+#pageTop {
+	max-width: 960px;
+	height: 80px;
+	margin: 20px auto 0px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+#pageTopText {
+	background: #4aaaa5;
+	width: 250px;
+	height: 80px;
+	display: flex;
+	align-items: center;
+}
+
+#myName {
+	margin: auto;
+	color: #ffffff;
+	text-decoration: none;
+} 
+
+nav {
+	height: 20px;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.navLinks {
+	background: #ffffff;
+	height: 100%;
+	padding: 0px 15px;
+}
+
+.navLinks:hover {
+	background: #efefef;
+}
+
+.bar {
+	font-size: 16px;
+	font-weight: 100;
+}
+
+#mainBox {
+	max-width: 960px;
+	margin: 38px auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+section, aside {
+	background: #ffffff;
+	border: 1px solid #dddddd;
+	width: 588px;
+	padding: 40px;
+}
+
+section p {
+	line-height: 190%;
+}
+
+#grayLine1 {
+	background: #dddddd;
+	height: 3px;
+	margin: 30px 0 20px 0;
+}
+
+aside {
+	width: 210px;
+	height: 130px;
+	padding: 30px 30px 35px 30px;
+}
+
+aside img {
+	width: 60px;
+	height: 60px;
+	transition: all 0.5s;
+}
+
+aside img:hover {
+	opacity: 0.7;
+}
+
+#grayLine2 {
+	background: #dddddd;
+	height: 3px;
+	margin: 20px 0 22px 0;
+}
+
+#ConnxLinks {
+	display:flex;
+    justify-content: space-between;
+}
+
+footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	height: 60px;
+	width: 100%;
+	background: #666666;
+	border-top: 9px solid #4aaaa5;
+	color: white;
+	text-align: center;
+ }
+
+#footerText {
+	font-size: 12px;
+	margin: 45px;
+	color: #cccccc;
+}
+
+#myPhoto {
+	margin: 10px 35px 10px 0px;
+	float: left;
+	border-style: solid;
+	border-width: 5px;
+	border-color: #666666;
+}
+
+/* portfolio page */
+
+#portfolioSection {
+	max-width: 960px;
+	margin: 40px auto;
+	display: flex;
+	justify-content: space-between;
+}
+#portfolioPhotos {
+	width: 600px;
+	margin-top: 40px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.portfolioPhoto {
+	height: 200px;
+	margin-bottom: 65px;
+	position: relative;
+}
+
+.portfolioPhotoText {
+	background: #4aaaa5;
+	width: 100%;
+	height: 40px;
+	margin-top: 200px;
+	padding-top: 20px;
+	position: absolute;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 22px;
+	font-weight: bold;
+	color: #ffffff;
+	text-align: center;
+	transition: all 0.5s;
+}
+
+.portfolioPhotoText:hover {
+	background: #275956;
+}
+
+/* contact page */
+form {
+	margin-top: 25px;
+}
+
+input, textarea {
+	border: 1px solid #dddddd;
+	width: 567px;
+	margin-top: 10px;
+	padding: 10px;
+	font-size: 16px;
+	color: #a9a9a9;
+}
+
+input[type=submit] {
+	background: #4aaaa5;
+	outline: none;
+	width: auto;
+	margin-top: 15px;
+	padding: 10px 30px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 16px;
+	color: white;
+	transition: all 0.5s;
+}
+
+input[type=submit]:hover {
+	background: #275956;
+}
+
+textarea {
+	height: 175px;
+}
