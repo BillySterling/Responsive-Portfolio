@@ -237,3 +237,21 @@ input[type=submit]:hover {
 textarea {
 	height: 175px;
 }
+
+@media screen and (max-width: 960px) {
+	.container {
+	  max-width: 940px;
+	}
+  
+  }
+  @media screen and (max-width: 768px) {
+	.container {
+	  max-width: 750px;
+	}
+  }
+
+  @media screen and (max-width: 640px) {
+	.container {
+	  max-width: 600px;
+	}
+  }
