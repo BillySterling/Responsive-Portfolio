@@ -176,6 +176,7 @@ footer {
 
 .portfolioPhoto {
 	height: 200px;
+	width: 200px;
 	margin-bottom: 65px;
 	position: relative;
 }
@@ -250,7 +251,7 @@ textarea {
 
   @media screen and (max-width: 640px) {
 	.container {
-		max-width: 640px;
+		max-width: 600px;
 	}
 	.navLinks {
 		margin-top: -15px;
@@ -264,5 +265,11 @@ textarea {
 	}
 	#footerText {
 		margin: 15px;
+	}
+	section {
+		width: 240px;
+	}
+	#portfolioPhotos {
+		width: 200px;
 	}
   }
