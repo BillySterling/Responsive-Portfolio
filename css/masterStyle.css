@@ -241,12 +241,23 @@ textarea {
 	.container {
 	  	max-width: 750px;
 	}
+	section {
+		width: 600px;
+	}
+	#portfolioPhotos {
+		width: 200px;
+  	}
   }
 
   @media screen and (max-width: 640px) {
 	.container {
 		max-width: 600px;
 	}
+	aside {
+		height: 280px;
+	}
+
+
 	.navLinks {
 		margin-top: -15px;
 		padding: 0px 15px 15px;
@@ -265,4 +276,5 @@ textarea {
 	}
 	#portfolioPhotos {
 		width: 200px;
+  	}
   }
