@@ -259,4 +259,10 @@ textarea {
 	nav {
 		flex-direction: column;
 	}
+	footer {
+		height: 30px;
+	}
+	#footerText {
+		margin: 15px;
+	}
   }
