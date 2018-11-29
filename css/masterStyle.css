@@ -160,12 +160,6 @@ footer {
 
 /* portfolio page */
 
-#portfolioSection {
-	max-width: 960px;
-	margin: 40px auto;
-	display: flex;
-	justify-content: space-between;
-}
 #portfolioPhotos {
 	width: 600px;
 	margin-top: 40px;
@@ -271,5 +265,4 @@ textarea {
 	}
 	#portfolioPhotos {
 		width: 200px;
-	}
   }
