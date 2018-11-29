@@ -241,11 +241,14 @@ textarea {
 	.container {
 	  	max-width: 750px;
 	}
+	aside {
+		height: 260px;
+	}
 	section {
 		width: 600px;
 	}
 	#portfolioPhotos {
-		width: 200px;
+		width: 400px;
   	}
   }
 
@@ -254,10 +257,8 @@ textarea {
 		max-width: 600px;
 	}
 	aside {
-		height: 280px;
+		height: 200px;
 	}
-
-
 	.navLinks {
 		margin-top: -15px;
 		padding: 0px 15px 15px;
